@@ -1,0 +1,43 @@
+/*selector{deklarimi} */
+
+/*universal selector*/
+h1{
+    background-color: aqua;
+    color: cornflowerblue;
+}
+/* Tag selector */
+h1{
+    background-color: rgb(88, 88, 161);
+
+}
+/* id selector */
+#p1{
+    background-color: rgb(13, 58, 58);
+    font-size: 32px;
+}
+/* class selector */
+.para{
+    background-color: aquamarine;
+    font-size: 25px;
+}
+/* descending selector */
+div p{
+    background-color: rgb(73, 110, 98);
+    color: rgb(37, 90, 73);
+    font-size: 22px;
+}
+
+/* Child selector */
+div>h1{
+    background-color: rgb(191, 235, 235);
+    color: rgb(36, 230, 230);
+    font-size: 22px;
+}
+
+
+
+/* Group selector */
+h1,h2,button{
+    background-color: rgb(14, 241, 166);
+    color: rgb(4, 61, 42);
+}
